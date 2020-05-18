@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
   else
     name_hash.each do |(thing, amount)|
       minimum = nil
+      min_thing = ""
       if minimum == nil
         minimum = amount
         min_thing = thing
